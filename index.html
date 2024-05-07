@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @keyframes backgroundchange {
+            0% {
+                /* background-image: url(image/download.jpeg); */
+                background: linear-gradient(rgba(0, 0, 0, 0.7),
+                        rgba(255, 255, 255, 0.2)), url(image/download.jpeg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+
+            }
+
+            25% {
+                /* background-image: url(image/download\ \(1\).jpeg); */
+                background: linear-gradient(rgba(0, 0, 0, 0.7),
+                        rgba(255, 255, 255, 0.2)), url(image/download\ \(1\).jpeg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+
+            }
+
+            50% {
+                /* background-image: url(image/download\ \(2\).jpeg); */
+                background: linear-gradient(rgba(0, 0, 0, 0.7),
+                        rgba(255, 255, 255, 0.2)), url(image/download\ \(2\).jpeg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+
+            }
+
+            75% {
+                /* color: blueviolet;
+                background-image: url(image/download\ \(3\).jpeg); */
+                background: linear-gradient(rgba(0, 0, 0, 0.7),
+                        rgba(255, 255, 255, 0.2)), url(image/download\ \(3\).jpeg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+
+            100% {
+                /* color: yellowgreen;
+                background-image: url(image/images.jpeg); */
+                background: linear-gradient(rgba(0, 0, 0, 0.7),
+                        rgba(255, 255, 255, 0.2)), url(image/images.jpeg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+
+            }
+        }
+
+        body {
+
+            animation-name: backgroundchange;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+
+        @keyframes colorchange {
+            0% {
+                color: red;
+
+            }
+
+            25% {
+                color: green;
+
+            }
+
+            50% {
+                color: blue;
+
+            }
+
+            75% {
+                color: blueviolet;
+            }
+
+            100% {
+                color: yellowgreen;
+
+            }
+        }
+
+        .name h1 {
+            font-size: 50px;
+            animation-name: colorchange;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            display: flex;
+            justify-content: center;
+            margin-top: 200px;
+            /* font-weight: bold; */
+            text-decoration-thickness: 5px;
+
+        }
+
+        .name a button {
+            font-size: 20px;
+            animation-name: colorchange;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            display: flex;
+            justify-content: center;
+            margin: 100px 575px;
+            text-decoration: none;
+            color: red;
+            padding: 15px 30px;
+            border-radius: 8px;
+            border: 1px solid red;
+            font-weight: bold;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="name">
+        <h1>Welcome to Anand Patel Website</h1>
+        <a href="contact.html"><button>click here</button></a>
+    </div>
+
+</body>
+
+</html>
